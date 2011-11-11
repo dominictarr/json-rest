@@ -5,7 +5,10 @@
 , "repository": 
   { "type": "git"
   , "url": "https://github.com/dominictarr/json-rest.git" }
-, "dependencies": {}
+, "dependencies": {
+    "request": "~2.1",
+    "ubelt": "2.10"
+  }
 , "devDependencies": {}
 , "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://bit.ly/dominictarr)"
 , "scripts": { "test": "meta-test test/*.js" } }
